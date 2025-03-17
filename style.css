@@ -8,11 +8,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 button{
     border: 1px solid pink;
     padding: 10px 20px;
-    background-color: pink;
+    background-color: rgb(221, 115, 132);
     color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    scale: 1.1;
+    background-color: rgb(134, 41, 56);
+}
+
+button:active{
+    scale: 0.9;
 }
